@@ -14,7 +14,7 @@ class PlaceApiActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_place_api)
 
-        val apiKey = "AIzaSyD0Jb4JpvS2IU5GVHWY_NB0Al8r0bu2sRY"
+        val apiKey = "YOUR_GOOGLE_PLACE_KEY"
 
         if(!Places.isInitialized())
         {
